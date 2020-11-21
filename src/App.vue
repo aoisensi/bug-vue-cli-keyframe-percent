@@ -22,5 +22,15 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 </style>
